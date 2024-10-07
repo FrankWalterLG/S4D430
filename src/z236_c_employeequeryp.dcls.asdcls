@@ -1,0 +1,11 @@
+@EndUserText.label: 'Authorization  Check for Employee'
+@MappingRole: true
+define role Z236_C_EMPLOYEEQUERYP {
+    grant
+        select
+            on
+                Z236_C_EMPLOYEEQUERYP
+                    where
+                        inheriting conditions from entity Z236_R_EMPLOYEE;
+                        
+}

@@ -1,0 +1,10 @@
+@Metadata.layer: #CORE
+annotate view Z236_C_EmployeeQueryP with
+{
+  @EndUserText.label: 'Employee Role'
+  EmployeeRole;
+  @EndUserText.label: 'Annual Salary'
+  AnnualSalaryConverted;
+  @EndUserText.label: 'Monthly Salary'
+  MonthlySalaryConverted;
+}

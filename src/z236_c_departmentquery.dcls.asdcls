@@ -1,0 +1,11 @@
+@EndUserText.label: 'Authorization  Check for departmnet'
+@MappingRole: true
+define role Z236_C_DEPARTMENTQUERY {
+    grant
+        select
+            on
+                Z236_C_DEPARTMENTQUERY
+                    where
+                        inheriting conditions from entity Z236_R_EMPLOYEE;
+                        
+}
